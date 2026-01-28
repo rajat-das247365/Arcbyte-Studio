@@ -11,7 +11,9 @@ const VideoService = () => {
       glow="rgba(255,61,87,0.4)"
     >
       <div className="relative bg-black/60 rounded-xl p-6 border border-[#FF3D57]/40">
-        <div className="h-40 bg-gradient-to-r from-[#FF3D57]/40 to-transparent mb-4" />
+        <div   style={{
+    background: 'linear-gradient(135deg, rgba(255,61,87,0.4), transparent)',
+  }} className="h-40 bg-gradient-to-r from-[#FF3D57]/40 to-transparent mb-4" />
         <div className="text-xs text-[#FF3D57] tracking-widest">
           TIMELINE ACTIVE
         </div>
