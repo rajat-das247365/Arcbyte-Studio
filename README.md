@@ -1,16 +1,67 @@
-# React + Vite
+# Cinematic Agency Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance landing page built using **React + Vite**, featuring a dark cinematic design system with glassmorphism, subtle neon interactions, and smooth micro-animations.
 
-Currently, two official plugins are available:
+This project focuses on **clean UI architecture**, **interaction-first design**, and **performance-friendly styling** using Tailwind CSS with inline color values (no custom Tailwind config).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚡ Built with **React + Vite** for fast development and builds
+- 🌌 Dark cinematic UI with glassmorphism
+- 💎 Subtle neon accents (interaction-only, no visual noise)
+- 🧠 Strong visual hierarchy and narrative-driven sections
+- 🎯 Responsive layouts (desktop-first, mobile-friendly)
+- 🧩 Modular components (easy to extend & maintain)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 UI Sections
+
+- Hero / Intro Section
+- Platforms Coverage Section
+- Careers / Hiring Section
+- Contact Form with Glass Card Design
+
+Each section follows a consistent design language:
+- Dark base background
+- Soft borders and dividers
+- Neon highlights only on hover, focus, or CTA
+
+---
+
+## 🎨 Design System
+
+### Colors
+- **Base Background:** `#0A0B10`
+- **Surface / Glass:** `rgba(18,20,32,0.7)`
+- **Primary Neon:** `#4DEEEA`
+- **Secondary Accent:** `#8A4FFF`
+- **Support Accent:** `#2AFF9D`
+- **Danger:** `#FF3D57`
+- **Text Primary:** `#E6E8FF`
+- **Text Muted:** `#9AA0C7`
+
+### Typography
+- **Headings:** Orbitron (uppercase, wide tracking)
+- **Body:** Inter (comfortable reading, 1.6–1.8 line height)
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+
+No additional UI libraries used — styling is handled directly with Tailwind utility classes.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+
