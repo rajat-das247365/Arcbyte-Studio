@@ -1,8 +1,12 @@
 import React from 'react'
+import BossFightCTA from './BossFightCTA'
 
 const ContactForm = () => {
   return (
- <section className="bg-[#0A0B10] text-[#E6E8FF] py-32 px-6">
+    <>
+    <BossFightCTA/>
+    <section className="bg-[#0A0B10] text-[#E6E8FF] py-32 px-6">
+  
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
 
         {/* LEFT SIDE – CONTEXT */}
@@ -81,6 +85,8 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    </>
+ 
   )
 }
 const Input = ({ label, required }) => {

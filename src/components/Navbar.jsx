@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -12,15 +13,14 @@ const Navbar = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex gap-10 text-sm text-[#9AA0C7]">
-          {["Services", "Work", "About", "Process", "Contact"].map((item) => (
-            <a
-              key={item}
-              href="#"
-              className="hover:text-[#4DEEEA] transition"
-            >
-              {item}
-            </a>
-          ))}
+         <NavLink to={'/'} className={`hover:text-[#4DEEEA] transition`}>Home</NavLink>
+         <NavLink to={'/services'} className={`hover:text-[#4DEEEA] transition`}>Services</NavLink>
+         <NavLink to={'/portfolio'}  className={`hover:text-[#4DEEEA] transition`}>Portofolio</NavLink>
+         <NavLink to={'/about'} className={`hover:text-[#4DEEEA] transition`}>About</NavLink>
+         <NavLink to={'/pricing'} className={`hover:text-[#4DEEEA] transition`}>Pricing</NavLink>
+         <NavLink to={'/careers'} className={`hover:text-[#4DEEEA] transition`}>Careers</NavLink>
+                  <NavLink to={'/contact'} className={`hover:text-[#4DEEEA] transition`}>Contact Us</NavLink>
+
         </nav>
 
         {/* CTA */}
